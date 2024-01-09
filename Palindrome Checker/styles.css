@@ -1,7 +1,54 @@
 body{
-    background-color: aqua;
+    background-color: #0a0a23;
 }
-form{
-    width: 30%;
+.title{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30pt;
+}
 
+.container{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+}
+
+label{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.palindrome-div{
+    background-color: whitesmoke;
+    width: 380px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border-radius: 30px;
+    border-bottom: solid #0d00c0 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#check-btn{
+    background-color: #5a01a7;
+    color: whitesmoke;
+    padding: 10px 23px;
+    border-radius: 12px;
+    border: none;
+}
+
+#text-input{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid #5a01a7 2px;
+    width: 65%;
+    margin-right: 5px;
+}
+
+.input-section{
+    margin-top: 25px;
 }

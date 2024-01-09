@@ -11,12 +11,7 @@ h2{
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
 }
-.container{
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
 
-}
 
 label{
     color: black;
@@ -50,8 +45,22 @@ label{
     border: solid white 1px;
     width: 300px;
     font-size: 26pt;
+    color: whitesmoke;
 }
 
 .input-section{
     margin-top: 25px;
+}
+
+#output{
+    background-color: #3b3b4f;
+    border: solid whitesmoke 2px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px 30px;
+    font-size: 24pt;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
